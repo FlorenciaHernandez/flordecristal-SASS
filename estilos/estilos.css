@@ -1,0 +1,1215 @@
+    /* ELEMENTOS COMUNES A TODAS LAS PAGINAS */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black
+    }
+    
+
+
+    body {
+        background-color: white;
+        font-family: 'Work Sans', sans-serif;
+        color: black;
+    }
+    
+  
+    
+
+    header {
+        position: sticky;
+        top: 0; 
+        z-index: 2;
+       
+        
+    }
+    
+    .imagenLogo {
+        width: 80px;
+        height: 80px;
+       
+
+
+        animation-name: pulso;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+    }
+    
+
+    @keyframes pulso {
+        0% {
+            transform: scale(0.9);
+        }
+
+        50% {
+            transform: scale(0.98);
+        } 
+
+        100% {
+            transform: scale(0.9);
+        }
+    }
+
+    
+
+  
+   
+    .nav-item a {
+        color: rgb(82, 82, 82);
+        background-image: linear-gradient(to right, #e0c8eb, #e0c6d0, #f1bdd0);
+        background-position: 0% 100%;
+         background-repeat: no-repeat;
+        background-size: 0% 2px;
+         transition: background-size .3s;
+ 
+        
+    }
+
+    .nav-item a:hover {
+        color: rgb(148, 148, 148);
+        background-size: 100% 2px;
+    }
+
+
+   li.nav-item {
+    
+       margin-right: 2%;
+       font-weight: 500;
+       font-size: 1rem;
+       font-family: 'Work Sans', sans-serif !important;
+   }
+  
+  
+    
+    
+    footer {
+        padding: 1%;
+        background-color: white;
+        border-top: solid 1.5px #b5b6de;
+    }
+    
+    .contenedorFooter {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+        margin-top: 2.5%;
+    }
+    
+   
+    
+
+    .elementosFooter h3 {
+        font-size: 1.20rem;
+        font-weight: 600;
+        margin-bottom: 8%;
+    }
+
+    .elementosFooter p {
+        font-weight: 400;
+        color: rgb(66, 66, 66);
+        margin-top: 5%;
+        margin-bottom: -2%;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .iconContacto{ 
+        color: rgba(0, 0, 0, 0.678);
+    }
+ 
+
+
+    
+    .formularioFooter {
+        display: flex;
+        padding: 1%;
+        margin: 2% 2% 2% 0;
+    }
+    
+    .inputFooter {
+        display: flex;
+        background-color: white;
+        color: black;
+        padding: 5%;
+        border: solid 1px black;
+        font-size: 0.8rem;
+        margin-bottom: 2%;
+    }
+
+
+    .inputSubmit {
+        background-image: url(../images/kisspng-computer-icons-button-send-email-button-5ac4bc896d9823.4635189215228427614489.png);
+        background-repeat: no-repeat;
+        background-position: 4px center;
+        background-size: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 28px;
+        height: 39px;
+        border: 1px solid rgb(0, 0, 0);
+        
+    }
+
+
+    /* INDEX */
+
+    .imagenCarrusel {
+      height: 650px;
+    }
+
+
+   .iconoCamion {
+       margin: 0 0 2% 33%;
+   }
+
+   .iconoMapa {
+        margin: 0 0 2% 37%;
+       color: #b5b6de;
+   }
+
+    .contenedorCards {
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: solid 1.5px #b5b6de;
+        padding: 2%;
+       
+        
+    }
+    
+    .cardEnvios {
+        color: #b5b6de;
+        padding-right: 10%;
+        border-right: solid 2px #b5b6de;
+    }
+    
+    .tituloEnvios {
+        font-weight: 600;
+        font-size: 1.20rem;
+    }
+    
+    .textoEnvios {
+        font-weight: 400;
+        font-size: 1.05rem;
+    }
+    
+    .tituloEntregas {
+        color: #b5b6de;
+        font-weight: 600;
+        font-size: 1.20rem;
+    }
+    
+    .textoEntregas {
+        text-align: center;
+        color: #b5b6de;
+        font-weight: 400;
+        font-size: 1.05rem;
+    }
+
+
+    .backgroundColorPiedras {
+    
+        background-color: rgb(233, 220, 241);
+        border: solid rgb(233, 220, 241);
+        
+        
+    }
+   
+    .cardProductos1 {
+        display: flex;
+        align-items: center;
+        margin: 4% 0 8% 5%;
+        padding: 8% 2% 0 2%;
+        
+        
+    }
+    
+    .cardProductos2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5% 8% 7%;
+       
+    }
+
+   
+    .flex {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+
+
+    
+    .piedrasTitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-bottom: 2%;
+        font-size: 1.25rem;
+    }
+
+
+    .piedrasIndex {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        margin-bottom: 5%;
+    }
+
+    .piedrasIndex::selection {
+        background: rgb(218, 208, 238);
+    }
+
+    
+    .botonIndex {
+        display: inline;
+        background: rgb(206, 198, 214);
+        color: rgb(255, 255, 255);
+        border: solid rgb(206, 198, 214);
+        border-radius: 5%;
+        padding: 1%;
+        margin: 6% 0 10% 40%;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all .2s;
+    }
+
+
+    .botonIndex:hover {
+       transform: scale(1,1.05);
+       background-color: rgb(212, 202, 221);
+    }
+    
+    
+
+
+
+    /* PRODUCTOS */
+
+    
+   
+    .tituloProductos {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 1.30rem;
+        
+    }
+
+    .flexRow {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 8% 3%
+        
+      
+    }
+
+
+    .flexColumn {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10% 5% 9% 5% ;
+        background-image: linear-gradient(to right, #505050, #646464, #707070);
+       background-position: 0% 100%;
+        background-repeat: no-repeat;
+       background-size: 0% 2px;
+        transition: all  0.5s linear;
+
+    }
+
+
+   .flexColumn:hover {
+        color: rgb(88, 88, 88);
+        background-size: 100% 1px;
+   }
+
+
+   .piedrasTituloProd {
+       font-size: 1.25rem;
+       font-weight: 400;
+       margin-top: -3%;
+      
+   }
+    
+
+   .piedrasProductos {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        margin-bottom: 1%;
+    }
+
+    .precioProductos {
+        margin-top: 2%;
+        font-size: 1.02rem;
+        font-weight: 600;
+    }
+    
+    
+
+
+
+
+    /* INFORMACION */
+    
+    .contenedorInformacion {
+        margin: 4% 3% 18% 3%;
+    }
+    
+    .tituloInformacionEnvios {
+        text-align: center;
+        font-size: 1.35rem;
+        margin: 4% 0 4% 0;
+    }
+    
+    .subtitulo {
+        color: #b5b6de;
+        font-weight: bold;
+        font-size: 1.25rem;
+        margin: 2% 0 3% 3%;
+    }
+    
+    .infoEnvios {
+        color: #a6a6a6;
+        font-size: 1.15rem;
+        margin: 2% 0 3% 3%;
+    }
+    
+    .tituloInformacionEntregas {
+        border-top: solid 2px #b5b6de;
+        text-align: center;
+        font-size: 1.35rem;
+        margin: 8% 0 4% 0;
+        padding-top: 7%;
+    }
+    
+    .infoPuntos {
+        font-size: 1.25rem;
+        color: #b5b6de;
+        font-weight: bold;
+        margin-bottom: 5%;
+        margin: 2% 0 3% 3%;
+    }
+    
+    .puntosEntrega {
+        color: #a6a6a6;
+        font-size: 1.15rem;
+        margin: 2% 0 3% 3%;
+    
+    }
+
+
+    /* CUENTA */
+    
+    .tituloCuenta {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    
+    .textoCuenta {
+        color: #363636;
+        margin: 2% 0 5% 0;
+        font-size: 1.15rem;
+        text-align: center;
+    }
+    
+    .formulario{
+        margin: 4% 10% 15% 30%;
+        font-size: 0.90rem;
+    }
+
+   
+    
+
+    .inputCuenta {
+        width: 40vw;
+        margin-bottom: 4%;
+    }
+
+    .botonCuenta {
+        background-color: #b5b6de;
+        margin-left: 28%;
+        padding: 1.3%;
+        transition: all .2s;
+    }
+
+    .botonCuenta:hover {
+        background-color: #a3a4c9;
+    }
+    
+
+    /* CONTACTO */
+    
+    .tituloContacto {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    
+    .textoContacto {
+        color: #363636;
+        margin: 2% 0 5% 0;
+        font-size: 1.15rem;
+        text-align: center;
+    }
+
+
+    .form-control:focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #dbd7f3;
+        outline: 0;
+        box-shadow: 0 0 0 0.20rem #dbd7f3
+
+    }
+
+    .inputContacto {
+        width: 40vw;
+        margin-bottom: 4%;
+        
+    }
+
+
+
+    .inputMessage {
+        
+        width: 40vw;
+        height: 50vh;
+      
+    }
+    
+    .botonContacto {
+        height: 15%;
+        padding: 1.3%;
+        margin: 2% 0 0 28%;
+        background-color: #b5b6de;
+        transition: all .2s;
+    }
+
+    .botonContacto:hover{
+        background-color: #a3a4c9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* RESPONSIVE */
+    
+    @media screen and (max-width: 1030px) {
+
+        
+
+
+        .imagenCarrusel {
+            height: 60vh;
+        }
+
+        .imagenCuarzo, .imagenAmatista {
+            width: 50vw;
+        }
+
+
+        .cardProductos1 {
+            display: flex;
+            align-items: center;
+            margin: 4% 0 8% 5%;
+            padding: 8% 2% 0 2%;
+        }
+
+
+        .flex {
+            padding: 5%;
+        }
+
+
+        .imagenFlex {
+            height: 70%;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        
+        .flexRow {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 8% 5%
+            
+          
+        }
+
+        .piedrasTituloProd {
+            font-size: 1.50rem;
+            font-weight: 500;
+            margin-bottom: 1%;
+        }
+        
+        .piedrasProductos {
+           font-size: 1.30rem;
+           font-weight: 400; 
+        }
+
+
+        .precioProductos {
+            font-size: 1.30rem;
+        }
+
+        .inputMessage {
+            
+            width: 40vw;
+            height: 30vh;
+        }
+
+
+    }
+
+
+
+    
+    @media screen and (max-width: 780px) {
+
+
+        .contenedorCards {
+            padding-top: 5%;
+        }
+
+
+        .tituloEnvios {
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+        
+
+        .textoEnvios {
+            font-weight: 400;
+            font-size: 1rem;
+        }
+        
+
+        .tituloEntregas {
+            color: #b5b6de;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+        
+
+
+        .textoEntregas {
+            text-align: center;
+            color: #b5b6de;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+       
+
+        .piedrasIndex {
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+
+
+
+        .botonIndex {
+            padding: 1.5%;
+            justify-content: center;
+            margin: 6% 0 10% 40%;
+            font-size: 0.8rem;
+        }
+
+
+        .flexColumn {
+            padding: 0 5%;
+        }
+
+
+        .piedrasTituloProd {
+            font-size: 1.35rem;
+        }
+
+
+        .piedrasProductos {
+            font-size: 1.20rem;
+        }
+
+
+
+        .tituloCuenta {
+            margin-top: 8%;
+        }
+
+        .formulario {
+            margin-bottom: 15%;
+        }
+
+        .botonCuenta {
+            margin-left: 25%;
+        }
+
+        .form-label {
+            margin-left: -33%;
+        }
+
+
+      .inputCuenta {
+          margin-left: -33%;
+          width: 80vw;
+      }
+
+
+      .tituloContacto {
+          margin-top: 8%;
+      }
+
+      .inputContacto {
+        margin-left: -33%;
+        width: 80vw;
+      }
+
+      .inputMessage {
+        margin-left: -33%;
+        width: 80vw;
+      }
+
+
+      footer {
+        font-size: 0.90rem;
+        
+      }
+
+    }
+
+
+
+    @media screen and (max-width: 722px) {
+
+        .imagenCarrusel {
+            height: 50vh
+        }
+
+
+        .inputMessage {
+            width: 80vw;
+        }
+
+        .tituloCuenta {
+            margin-top: 8%;
+        }
+
+        .tituloContacto {
+            margin-top: 8%;
+        }
+
+        .botonContacto {
+            background-color: rgb(218, 214, 252);
+        }
+        
+    }
+
+
+    @media screen and (max-width: 680px) {
+        
+        .imagenCarrusel {
+            height: 50vh;
+        }
+
+
+        .cardEnvios {
+            padding-right: 7%;
+           
+        }
+
+        .tituloEnvios {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .textoEnvios {
+            font-weight: 400;
+            font-size: 0.85rem;
+        }
+        
+        .tituloEntregas {
+            color: #b5b6de;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .textoEntregas {
+            text-align: center;
+            color: #b5b6de;
+            font-weight: 400;
+            font-size: 0.85rem;
+
+        }
+
+    
+        
+        .form-label {
+            margin-left: -33%;
+        }
+
+
+        .tituloCuenta {
+            margin-top: 8%;
+        }
+
+      .inputCuenta {
+          margin-left: -33%;
+          width: 80vw;
+        }
+
+
+        .tituloContacto {
+            margin-top: 8%;
+        }
+
+      .inputContacto {
+        margin-left: -33%;
+        width: 80vw;
+      }
+
+      .inputMessage {
+        margin-left: -33%;
+        width: 80vw;
+      }
+
+
+      .elementosFooter h3 {
+
+        font-size: 1.05rem;
+        padding-top: 2%;
+
+
+    }
+
+
+    }
+
+    @media screen and (max-width: 650px) {
+
+        .imagenCarrusel {
+            height: 50vh;
+        }
+
+
+        .tituloCuenta {
+            margin-top: 8%;
+        }
+
+        .tituloContacto {
+            margin-top: 8%;
+        }
+
+        .inputMessage {
+            width: 80vw;
+        }
+        
+    }
+
+
+
+    @media screen and (max-width: 576px) {
+
+        .imagenCarrusel {
+            height: 50vh;
+        }
+
+
+        .tituloCuenta {
+            margin-top: 8%;
+        }
+
+
+        .tituloContacto {
+            margin-top: 8%;
+        }
+
+        .inputMessage {
+            width: 80vw;
+        }
+        
+    }
+
+ 
+    @media screen and (max-width: 508px) {
+
+
+        .imagenCarrusel {
+            height: 50vh;
+        }
+
+
+        .contenedorCards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cardEnvios {
+            border-right: none;
+            border-bottom: 1px solid #b5b6de;
+            margin-left: 7%;
+            
+            padding-right: 0;
+
+        }
+
+
+        .iconoMapa {
+
+            margin-top: 10%;
+            width: 20%;
+            height: 20%;
+        }
+        
+
+        .cardProductos1, .cardProductos2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .imagenCuarzo,.imagenAmatista {
+            width: 90vw;
+            margin-right: 3.5%
+
+        }
+
+
+        .botonIndex {
+            margin-left: 28%;
+            
+        }
+
+        .tituloCuenta {
+            margin-top: 8%;
+        }
+
+        .textoCuenta {
+            margin: 0 1%
+        }
+
+        .form-label {
+            margin-left: -33%;
+        }
+
+
+        .inputCuenta {
+            margin-left: -33%;
+            width: 80vw;
+        }
+
+        .botonCuenta {
+
+            background-color: rgb(218, 214, 252);
+
+        }
+
+
+        .tituloContacto {
+            margin-top: 8%;
+        }
+
+        .inputContacto {
+            margin-left: -33%;
+            width: 80vw;
+        }
+
+        .inputMessage {
+            margin-left: -33%;
+            width: 80vw;
+        }
+
+
+        .botonContacto{
+
+        background-color: rgb(218, 214, 252);
+
+        }
+
+        .contenedorFooter  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 5%;
+        }
+
+        
+        .tituloC {
+            margin-top: 7%;
+        }
+        
+        .tituloNews{
+
+            margin-top: 15%;
+            
+        }
+
+
+    }
+
+
+
+
+    /* MEDIA QUERIES CELULAR */
+    
+    @media screen and (max-width: 480px) {
+
+       
+        .imagenCarrusel {
+            height: 50vh;
+           
+
+        }
+
+       
+        .contenedorCards {
+            display: flex;
+    
+            justify-content: space-evenly;
+            align-content: center;
+            
+        }
+
+
+        .tituloEnvios {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .textoEnvios {
+            font-weight: 400;
+            font-size: 0.80rem;
+        }
+        
+        .tituloEntregas {
+            color: #b5b6de;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .textoEntregas {
+            text-align: justify;
+            color: #b5b6de;
+            font-weight: 400;
+            font-size: 0.80rem;
+            text-align: center;
+        }
+
+        
+        .imagenCuarzo, .imagenAmatista {
+            width: 90vw;
+            margin-right: 3.5%;
+        }
+
+        .piedrasIndex {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+
+        .botonIndex {
+            margin-left: 28%;
+            
+        }
+
+
+
+        .imagenFlex {
+            width: 95%;
+            margin-left: 3.5%;
+            
+        }
+
+
+
+
+        .piedrasProductos {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+
+        .contenedorInformacion {
+            padding: 5%;
+            
+        }
+
+
+        .tituloInformacionEnvios {
+           
+            font-size: 1.30rem;
+        }
+
+        .subtitulo {
+            font-size: 1.25rem;
+        }
+
+
+
+        .infoEnvios {
+        
+            font-size: 1.05rem;
+            
+        }
+        
+        .tituloInformacionEntregas {
+           
+            font-size: 1.30rem;
+            margin-top: 15%;
+            padding-top: 10%;
+            
+        }
+        
+        .infoPuntos {
+            font-size: 1.15rem;
+           
+        }
+        
+        .puntosEntrega {
+            
+            font-size: 1.05rem;
+            
+        
+        }
+
+
+        .tituloCuenta {
+            font-size: 1rem;
+            margin-top: 8%;
+
+        }
+    
+        .textoCuenta {
+            font-size: 1rem;
+
+        }
+
+
+        .form-label {
+            margin-left: -33%;
+            font-size: 0.75rem;
+        }
+
+
+        .inputCuenta {
+            margin-left: -33%;
+            width: 80vw;
+        }
+
+
+        .inputContacto {
+            margin-left: -33%;
+            width: 80vw;
+        }
+
+        .inputMessage {
+            margin-left: -33%;
+            width: 80vw;
+        }
+
+        .botonCuenta {
+            margin-left: 15%;
+        }
+
+
+        .tituloContacto {
+            font-size: 1rem;
+            margin-top: 8%;
+        }
+
+        
+        .textoContacto {
+            font-size: 1rem;
+            margin: 0 2%;
+        }
+
+        
+        .elementosFooter {
+            padding: 0 3% 0 3%;
+            margin: 0 0 5% 3%;
+
+        }
+
+
+    }
+
+
+    @media screen and (max-width: 375px) {
+
+        .imagenCarrusel {
+            height: 50vh;
+        }
+
+        .botonIndex {
+            margin-left: 20%;
+        }
+
+        .piedrasProductos {
+            font-size: 0.90rem;
+        }
+
+
+        .tituloCuenta {
+            margin-top: 8%;
+        }
+    
+        .textoCuenta {
+            margin: 1%
+        }
+
+
+        .form-label {
+            margin-left: -33%;
+        }
+
+
+        .inputCuenta {
+          margin-left: -33%;
+          width: 80vw;
+      }
+
+
+      .tituloContacto {
+        margin-top: 8%;
+    }
+
+        .inputContacto {
+         margin-left: -33%;
+         width: 80vw;
+      }
+
+        .inputMessage {
+         margin-left: -33%;
+         width: 80vw;
+      }
+
+
+
+
+
+
+    }
