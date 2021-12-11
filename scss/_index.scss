@@ -1,0 +1,125 @@
+/* INDEX */
+
+.imagenCarrusel {
+	height: 650px;
+}
+
+
+.iconoCamion {
+	margin: 0 0 2% 33%;
+}
+
+
+.iconoMapa {
+	margin: 0 0 2% 37%;
+	color: $colorLila;
+}
+
+
+.contenedorCards {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: solid 1.5px $colorLila;
+	padding: 2%;
+}
+
+
+.cardEnvios {
+	color: $colorLila;
+	padding-right: 10%;
+	border-right: solid 2px $colorLila;
+}
+
+
+.tituloEnvios {
+	font-weight: 600;
+	font-size: 1.20rem;
+}
+
+
+.textoEnvios {
+	font-weight: 400;
+	font-size: 1.05rem;
+}
+
+
+.tituloEntregas {
+	color: $colorLila;
+	font-weight: 600;
+	font-size: 1.20rem;
+}
+
+
+.textoEntregas {
+	text-align: center;
+	color: $colorLila;
+	font-weight: 400;
+	font-size: 1.05rem;
+}
+
+
+.backgroundColorPiedras {
+	background-color: rgb(233, 220, 241);
+	border: solid rgb(233, 220, 241);
+}
+
+
+.cardProductos1 {
+	display: flex;
+	align-items: center;
+	margin: 4% 0 8% 5%;
+	padding: 8% 2% 0 2%;
+}
+
+
+.cardProductos2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 5% 8% 7%;
+}
+
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.piedrasTitulo {
+	font-family: $fontFamilyM;
+	font-weight: 400;
+	margin-bottom: 2%;
+	font-size: 1.25rem;
+}
+
+
+.piedrasIndex {
+	font-family: $fontFamilyM;
+	font-weight: 300;
+	margin-bottom: 5%;
+
+	&::selection {
+		background: rgb(218, 208, 238);
+	}
+}
+
+
+.botonIndex {
+	display: inline;
+	background: rgb(206, 198, 214);
+	color: rgb(255, 255, 255);
+	border: solid rgb(206, 198, 214);
+	border-radius: 5%;
+	padding: 1%;
+	margin: 6% 0 10% 40%;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all .2s;
+
+	&:hover {
+		transform: scale(1,1.05);
+		background-color: rgb(212, 202, 221);
+	}
+}

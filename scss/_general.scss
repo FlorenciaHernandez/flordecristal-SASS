@@ -1,0 +1,124 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+a {
+	text-decoration: none;
+	color: $colorNegro;
+}
+
+body {
+	background-color: white;
+	font-family: 'Work Sans', sans-serif;
+	color: $colorNegro;
+}
+
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+
+.imagenLogo {
+	width: 80px;
+	height: 80px;
+}
+
+
+.nav-item {
+	a {
+		color: rgb(82, 82, 82);
+		background-image: linear-gradient(to right, #e0c8eb, #e0c6d0, #f1bdd0);
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		background-size: 0% 2px;
+		transition: background-size .3s;
+
+		&:hover {
+			color: rgb(148, 148, 148);
+			background-size: 100% 2px;
+		}
+	}
+}
+
+
+li.nav-item {
+	margin-right: 2%;
+	font-weight: 500;
+	font-size: 1rem;
+	font-family: 'Work Sans', sans-serif !important;
+}
+
+
+footer {
+	padding: 1%;
+	background-color: white;
+	border-top: solid 1.5px $colorLila;
+}
+
+
+.contenedorFooter {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
+	margin-top: 2.5%;
+}
+
+
+.elementosFooter {
+	h3 {
+		font-size: 1.20rem;
+		font-weight: 600;
+		margin-bottom: 8%;
+	}
+	p {
+		font-weight: 400;
+		color: rgb(66, 66, 66);
+		margin-top: 5%;
+		margin-bottom: -2%;
+		font-family: 'Work Sans', sans-serif;
+	}
+}
+
+
+.iconContacto {
+	color: rgba(0, 0, 0, 0.678);
+}
+
+
+.formularioFooter {
+	display: flex;
+	padding: 1%;
+	margin: 2% 2% 2% 0;
+}
+
+
+.inputFooter {
+	display: flex;
+	background-color: white;
+	color: black;
+	padding: 5%;
+	border: solid 1px $colorNegro;
+	font-size: 0.8rem;
+	margin-bottom: 2%;
+}
+
+
+.inputSubmit {
+	background-image: url(../images/kisspng-computer-icons-button-send-email-button-5ac4bc896d9823.4635189215228427614489.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	background-size: 20px;
+	display: flex;
+	align-items: center;
+	padding-left: 28px;
+	height: 39px;
+	border: 1px solid $colorNegro;
+}

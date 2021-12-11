@@ -1,0 +1,621 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1030px) {
+	.imagenCarrusel {
+		height: 60vh;
+	}
+
+	.imagenCuarzo {
+		width: 50vw;
+	}
+
+	.imagenAmatista {
+		width: 50vw;
+	}
+
+	.cardProductos1 {
+		display: flex;
+		align-items: center;
+		margin: 4% 0 8% 5%;
+		padding: 8% 2% 0 2%;
+	}
+
+	.flex {
+		padding: 5%;
+	}
+
+	.imagenFlex {
+		height: 70%;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.flexRow {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		margin: 8% 5%;
+	}
+
+	.piedrasTituloProd {
+		font-size: 1.50rem;
+		font-weight: 500;
+		margin-bottom: 1%;
+	}
+
+	.piedrasProductos {
+		font-size: 1.30rem;
+		font-weight: 400;
+	}
+
+	.precioProductos {
+		font-size: 1.30rem;
+	}
+
+	.inputMessage {
+		width: 40vw;
+		height: 30vh;
+	}
+
+}
+
+
+@media screen and (max-width: 780px) {
+
+	.contenedorCards {
+		padding-top: 5%;
+	}
+
+	.tituloEnvios {
+		font-weight: 600;
+		font-size: 1.05rem;
+	}
+
+	.textoEnvios {
+		font-weight: 400;
+		font-size: 1rem;
+	}
+
+	.tituloEntregas {
+		color: #b5b6de;
+		font-weight: 600;
+		font-size: 1.05rem;
+	}
+
+	.textoEntregas {
+		text-align: center;
+		color: #b5b6de;
+		font-weight: 400;
+		font-size: 1rem;
+	}
+
+	.piedrasIndex {
+		text-align: center;
+		font-size: 0.8rem;
+		font-weight: 400;
+	}
+
+	.botonIndex {
+		padding: 1.5%;
+		justify-content: center;
+		margin: 6% 0 10% 40%;
+		font-size: 0.8rem;
+	}
+
+	.flexColumn {
+		padding: 0 5%;
+	}
+
+	.piedrasTituloProd {
+		font-size: 1.35rem;
+	}
+
+	.piedrasProductos {
+		font-size: 1.20rem;
+	}
+
+	.tituloCuenta {
+		margin-top: 8%;
+	}
+
+	.formulario {
+		margin-bottom: 15%;
+	}
+
+	.botonCuenta {
+		margin-left: 25%;
+	}
+
+	.form-label {
+		margin-left: -33%;
+	}
+
+	.inputCuenta {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.tituloContacto {
+		margin-top: 8%;
+	}
+
+	.inputContacto {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.inputMessage {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	footer {
+		font-size: 0.90rem;
+	}
+
+}
+
+
+@media screen and (max-width: 722px) {
+
+	.imagenCarrusel {
+		height: 50vh;
+	}
+
+
+	.inputMessage {
+		width: 80vw;
+	}
+
+
+	.tituloCuenta {
+		margin-top: 8%;
+	}
+
+
+	.tituloContacto {
+		margin-top: 8%;
+	}
+
+
+	.botonContacto {
+		background-color: rgb(218, 214, 252);
+	}
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+	.imagenCarrusel {
+		height: 50vh;
+	}
+
+
+	.cardEnvios {
+		padding-right: 7%;
+	}
+
+
+	.tituloEnvios {
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+
+	.textoEnvios {
+		font-weight: 400;
+		font-size: 0.85rem;
+	}
+
+
+	.tituloEntregas {
+		color: #b5b6de;
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+
+	.textoEntregas {
+		text-align: center;
+		color: #b5b6de;
+		font-weight: 400;
+		font-size: 0.85rem;
+	}
+
+
+	.form-label {
+		margin-left: -33%;
+	}
+
+
+	.tituloCuenta {
+		margin-top: 8%;
+	}
+
+
+	.inputCuenta {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+
+	.tituloContacto {
+		margin-top: 8%;
+	}
+
+
+	.inputContacto {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+
+	.inputMessage {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+
+	.elementosFooter {
+		h3 {
+			font-size: 1.05rem;
+			padding-top: 2%;
+		}
+	}
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+	.imagenCarrusel {
+		height: 50vh;
+	}
+
+
+	.tituloCuenta {
+		margin-top: 8%;
+	}
+
+
+	.tituloContacto {
+		margin-top: 8%;
+	}
+
+
+	.inputMessage {
+		width: 80vw;
+	}
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+	.imagenCarrusel {
+		height: 50vh;
+	}
+
+
+	.tituloCuenta {
+		margin-top: 8%;
+	}
+
+
+	.tituloContacto {
+		margin-top: 8%;
+	}
+
+
+	.inputMessage {
+		width: 80vw;
+	}
+
+
+}
+
+
+
+@media screen and (max-width: 508px) {
+
+	.imagenCarrusel {
+		height: 50vh;
+	}
+
+	.contenedorCards {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.cardEnvios {
+		border-right: none;
+		border-bottom: 1px solid #b5b6de;
+		margin-left: 7%;
+		padding-right: 0;
+	}
+
+	.iconoMapa {
+		margin-top: 10%;
+		width: 20%;
+		height: 20%;
+	}
+
+	.cardProductos1 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.cardProductos2 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.imagenCuarzo {
+		width: 90vw;
+		margin-right: 3.5%;
+	}
+
+	.imagenAmatista {
+		width: 90vw;
+		margin-right: 3.5%;
+	}
+
+	.botonIndex {
+		margin-left: 28%;
+	}
+
+	.tituloCuenta {
+		margin-top: 8%;
+	}
+
+	.textoCuenta {
+		margin: 0 1%;
+	}
+
+	.form-label {
+		margin-left: -33%;
+	}
+
+	.inputCuenta {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.botonCuenta {
+		background-color: rgb(218, 214, 252);
+	}
+
+	.tituloContacto {
+		margin-top: 8%;
+	}
+
+	.inputContacto {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.inputMessage {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.botonContacto {
+		background-color: rgb(218, 214, 252);
+	}
+
+	.contenedorFooter {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 5%;
+	}
+
+	.tituloC {
+		margin-top: 7%;
+	}
+
+	.tituloNews {
+		margin-top: 15%;
+	}
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+	.imagenCarrusel {
+		height: 50vh;
+	}
+
+	.contenedorCards {
+		display: flex;
+		justify-content: space-evenly;
+		align-content: center;
+	}
+
+	.tituloEnvios {
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+	.textoEnvios {
+		font-weight: 400;
+		font-size: 0.80rem;
+	}
+
+	.tituloEntregas {
+		color: #b5b6de;
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+	.textoEntregas {
+		text-align: justify;
+		color: #b5b6de;
+		font-weight: 400;
+		font-size: 0.80rem;
+		text-align: center;
+	}
+
+	.imagenCuarzo {
+		width: 90vw;
+		margin-right: 3.5%;
+	}
+
+	.imagenAmatista {
+		width: 90vw;
+		margin-right: 3.5%;
+	}
+
+	.piedrasIndex {
+		text-align: center;
+		font-size: 0.8rem;
+	}
+
+	.botonIndex {
+		margin-left: 28%;
+	}
+
+	.imagenFlex {
+		width: 95%;
+		margin-left: 3.5%;
+	}
+
+	.piedrasProductos {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	.contenedorInformacion {
+		padding: 5%;
+	}
+
+	.tituloInformacionEnvios {
+		font-size: 1.30rem;
+	}
+
+	.subtitulo {
+		font-size: 1.25rem;
+	}
+
+	.infoEnvios {
+		font-size: 1.05rem;
+	}
+
+	.tituloInformacionEntregas {
+		font-size: 1.30rem;
+		margin-top: 15%;
+		padding-top: 10%;
+	}
+
+	.infoPuntos {
+		font-size: 1.15rem;
+	}
+
+	.puntosEntrega {
+		font-size: 1.05rem;
+	}
+
+	.tituloCuenta {
+		font-size: 1rem;
+		margin-top: 8%;
+	}
+
+	.textoCuenta {
+		font-size: 1rem;
+	}
+
+	.form-label {
+		margin-left: -33%;
+		font-size: 0.75rem;
+	}
+
+	.inputCuenta {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.inputContacto {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.inputMessage {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.botonCuenta {
+		margin-left: 15%;
+	}
+
+	.tituloContacto {
+		font-size: 1rem;
+		margin-top: 8%;
+	}
+
+	.textoContacto {
+		font-size: 1rem;
+		margin: 0 2%;
+	}
+
+	.elementosFooter {
+		padding: 0 3% 0 3%;
+		margin: 0 0 5% 3%;
+	}
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+	.imagenCarrusel {
+		height: 50vh;
+	}
+
+	.botonIndex {
+		margin-left: 20%;
+	}
+
+	.piedrasProductos {
+		font-size: 0.90rem;
+	}
+
+	.tituloCuenta {
+		margin-top: 8%;
+	}
+
+	.textoCuenta {
+		margin: 1%;
+	}
+
+	.form-label {
+		margin-left: -33%;
+	}
+
+	.inputCuenta {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.tituloContacto {
+		margin-top: 8%;
+	}
+
+	.inputContacto {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+	.inputMessage {
+		margin-left: -33%;
+		width: 80vw;
+	}
+
+}

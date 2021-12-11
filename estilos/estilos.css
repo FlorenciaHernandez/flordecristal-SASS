@@ -360,29 +360,25 @@
 
     /* INFORMACION */
     
-    .contenedorInformacion {
-        margin: 4% 3% 18% 3%;
+   .contenedorInformacion {
+	margin: 4% 3% 18% 3%;
     }
-    
     .tituloInformacionEnvios {
         text-align: center;
         font-size: 1.35rem;
         margin: 4% 0 4% 0;
     }
-    
     .subtitulo {
         color: #b5b6de;
         font-weight: bold;
         font-size: 1.25rem;
         margin: 2% 0 3% 3%;
     }
-    
     .infoEnvios {
         color: #a6a6a6;
         font-size: 1.15rem;
         margin: 2% 0 3% 3%;
     }
-    
     .tituloInformacionEntregas {
         border-top: solid 2px #b5b6de;
         text-align: center;
@@ -390,7 +386,6 @@
         margin: 8% 0 4% 0;
         padding-top: 7%;
     }
-    
     .infoPuntos {
         font-size: 1.25rem;
         color: #b5b6de;
@@ -398,12 +393,10 @@
         margin-bottom: 5%;
         margin: 2% 0 3% 3%;
     }
-    
     .puntosEntrega {
         color: #a6a6a6;
         font-size: 1.15rem;
         margin: 2% 0 3% 3%;
-    
     }
 
 
