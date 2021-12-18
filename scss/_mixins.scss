@@ -1,0 +1,11 @@
+@mixin cardFlexColumn ($display, $direction, $aling) {
+    display: $display;
+    flex-direction: $direction;
+    text-align: $aling;
+}
+
+@mixin cardProductosIndex ($display, $wrap, $justify) {
+    display: $display;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+}

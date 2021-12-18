@@ -28,25 +28,18 @@
 
 
 .tituloInformacionEntregas {
+	@extend .tituloInformacionEnvios;
 	border-top: solid 2px $colorLila;
-	text-align: center;
-	font-size: 1.35rem;
 	margin: 8% 0 4% 0;
 	padding-top: 7%;
 }
 
 
 .infoPuntos {
-	font-size: 1.25rem;
-	color: $colorLila;
-	font-weight: bold;
-	margin-bottom: 5%;
-	margin: 2% 0 3% 3%;
+	@extend .subtitulo;
 }
 
 
 .puntosEntrega {
-	color: #a6a6a6;
-	font-size: 1.15rem;
-	margin: 2% 0 3% 3%;
+	@extend .infoEnvios
 }

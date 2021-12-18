@@ -44,17 +44,15 @@
 
 
 .tituloEntregas {
-	color: $colorLila;
-	font-weight: 600;
-	font-size: 1.20rem;
+	@extend .tituloEnvios;
+	color: $colorLila
 }
 
 
 .textoEntregas {
+	@extend .textoEnvios;
 	text-align: center;
 	color: $colorLila;
-	font-weight: 400;
-	font-size: 1.05rem;
 }
 
 
@@ -81,9 +79,8 @@
 
 
 .flex {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
+	@include cardFlexColumn (flex, column, center)
+
 }
 
 

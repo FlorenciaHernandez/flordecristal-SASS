@@ -77,14 +77,14 @@
 	}
 
 	.tituloEntregas {
-		color: #b5b6de;
+		color: $colorLila;
 		font-weight: 600;
 		font-size: 1.05rem;
 	}
 
 	.textoEntregas {
 		text-align: center;
-		color: #b5b6de;
+		color: $colorLila;
 		font-weight: 400;
 		font-size: 1rem;
 	}
@@ -210,7 +210,7 @@
 
 
 	.tituloEntregas {
-		color: #b5b6de;
+		color: $colorLila;
 		font-weight: 600;
 		font-size: 1rem;
 	}
@@ -218,7 +218,7 @@
 
 	.textoEntregas {
 		text-align: center;
-		color: #b5b6de;
+		color: $colorLila;
 		font-weight: 400;
 		font-size: 0.85rem;
 	}
@@ -332,7 +332,7 @@
 
 	.cardEnvios {
 		border-right: none;
-		border-bottom: 1px solid #b5b6de;
+		border-bottom: 1px solid $colorLila;
 		margin-left: 7%;
 		padding-right: 0;
 	}
@@ -344,15 +344,11 @@
 	}
 
 	.cardProductos1 {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
+		@include cardProductosIndex (flex, wrap, center)
 	}
 
 	.cardProductos2 {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
+		@include cardProductosIndex (flex, wrap, center)
 	}
 
 	.imagenCuarzo {
