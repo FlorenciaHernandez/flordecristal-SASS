@@ -17,12 +17,35 @@ header {
   top: 0;
   z-index: 2; }
 
+.logo {
+  font-family: 'Abril Fatface', cursive;
+  background-color: #ecdaf5;
+  font-size: 1.2rem;
+  margin-top: 15%;
+  padding: 0 1vw 0 1vw; }
+
 .imagenLogo {
-  width: 80px;
-  height: 80px; }
+  width: 100%;
+  height: 5vh; }
 
 .miNav {
-  background-color: white; }
+  background-color: white;
+  border-bottom: 1px solid black; }
+
+.miCanvas {
+  align-items: flex-end; }
+
+.offcanvas.show {
+  width: 300px;
+  align-items: flex-start;
+  padding: 5% 0 0 2%; }
+
+.text-reset {
+  visibility: hidden;
+  opacity: 0; }
+
+.p-0 {
+  padding-left: 80% !important; }
 
 .nav-item a {
   color: #525252;
@@ -36,7 +59,7 @@ header {
     background-size: 100% 2px; }
 
 li.nav-item {
-  margin-right: 2%;
+  margin: -2% 2% 0 0;
   font-weight: 500;
   font-size: 1rem;
   font-family: 'Work Sans', sans-serif !important; }
@@ -90,7 +113,7 @@ footer {
   display: flex;
   align-items: center;
   padding-left: 28px;
-  height: 39px;
+  height: 38.5px;
   border: 1px solid black; }
 
 /* INDEX */
@@ -149,7 +172,8 @@ footer {
 .flex {
   display: flex;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  margin-left: 5%; }
 
 .piedrasTitulo {
   font-family: "Montserrat", sans-serif;
@@ -166,10 +190,9 @@ footer {
 
 .botonIndex {
   display: inline;
-  background: #cec6d6;
-  color: white;
-  border: solid #cec6d6;
-  border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.37);
+  color: black;
+  border: solid 1.5px black;
   padding: 1%;
   margin: 6% 0 10% 40%;
   font-weight: 600;
@@ -181,7 +204,7 @@ footer {
 
 /* PRODUCTOS */
 .tituloProductos {
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
   font-size: 1.30rem; }
 
@@ -226,7 +249,7 @@ footer {
 .tituloInformacionEnvios, .tituloInformacionEntregas {
   text-align: center;
   font-size: 1.35rem;
-  margin: 4% 0 4% 0; }
+  margin: 10% 0 4% 0; }
 
 .subtitulo, .infoPuntos {
   color: #b5b6de;
@@ -246,7 +269,7 @@ footer {
 
 /* CUENTA */
 .tituloCuenta, .tituloContacto {
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
   font-size: 1.25rem; }
 
@@ -265,7 +288,7 @@ footer {
   margin-bottom: 4%; }
 
 .botonCuenta, .botonContacto {
-  background-color: #b5b6de;
+  background-color: #e8d7ff;
   margin-left: 28%;
   padding: 1.3%;
   transition: all .2s; }
@@ -382,15 +405,32 @@ footer {
   footer {
     font-size: 0.90rem; } }
 
+@media screen and (max-width: 920px) {
+  .text-reset {
+    visibility: visible;
+    opacity: 1; }
+  .tituloProductos {
+    margin-top: 20%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 20%; }
+  .tituloCuenta, .tituloContacto {
+    margin-top: 20%; }
+  .tituloContacto {
+    margin-top: 20%; } }
+
 @media screen and (max-width: 722px) {
   .imagenCarrusel {
     height: 50vh; }
+  .tituloProductos {
+    margin-top: 20%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 20%; }
+  .tituloCuenta, .tituloContacto {
+    margin-top: 20%; }
+  .tituloContacto {
+    margin-top: 20%; }
   .inputMessage {
     width: 80vw; }
-  .tituloCuenta, .tituloContacto {
-    margin-top: 8%; }
-  .tituloContacto {
-    margin-top: 8%; }
   .botonContacto {
     background-color: #dad6fc; } }
 
@@ -414,15 +454,19 @@ footer {
     color: #b5b6de;
     font-weight: 400;
     font-size: 0.85rem; }
+  .tituloProductos {
+    margin-top: 20%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 20%; }
   .form-label {
     margin-left: -33%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .inputCuenta, .inputContacto {
     margin-left: -33%;
     width: 80vw; }
   .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
@@ -436,20 +480,28 @@ footer {
 @media screen and (max-width: 650px) {
   .imagenCarrusel {
     height: 50vh; }
+  .tituloProductos {
+    margin-top: 20%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 20%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .inputMessage {
     width: 80vw; } }
 
 @media screen and (max-width: 576px) {
   .imagenCarrusel {
     height: 50vh; }
+  .tituloProductos {
+    margin-top: 20%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 20%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .inputMessage {
     width: 80vw; } }
 
@@ -486,8 +538,12 @@ footer {
     margin-right: 3.5%; }
   .botonIndex {
     margin-left: 28%; }
+  .tituloProductos {
+    margin-top: 20%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 20%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .textoCuenta, .textoContacto {
     margin: 0 1%; }
   .form-label {
@@ -498,7 +554,7 @@ footer {
   .botonCuenta, .botonContacto {
     background-color: #dad6fc; }
   .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
@@ -576,7 +632,7 @@ footer {
     font-size: 1.05rem; }
   .tituloCuenta, .tituloContacto {
     font-size: 1rem;
-    margin-top: 8%; }
+    margin-top: 20%; }
   .textoCuenta, .textoContacto {
     font-size: 1rem; }
   .form-label {
@@ -595,7 +651,7 @@ footer {
     margin-left: 15%; }
   .tituloContacto {
     font-size: 1rem;
-    margin-top: 8%; }
+    margin-top: 20%; }
   .textoContacto {
     font-size: 1rem;
     margin: 0 2%; }
@@ -611,7 +667,7 @@ footer {
   .piedrasProductos {
     font-size: 0.90rem; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .textoCuenta, .textoContacto {
     margin: 1%; }
   .form-label {
@@ -620,7 +676,7 @@ footer {
     margin-left: -33%;
     width: 80vw; }
   .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 20%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }

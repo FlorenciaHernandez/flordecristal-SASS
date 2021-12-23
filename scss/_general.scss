@@ -24,15 +24,42 @@ header {
 	z-index: 2;
 }
 
+.logo {
+	font-family:'Abril Fatface', cursive;
+	background-color: #ecdaf5;
+	font-size: 1.2rem;
+	margin-top: 15%;
+	padding: 0 1vw 0 1vw;
+}
 
 .imagenLogo {
-	width: 80px;
-	height: 80px;
+	width: 100%;
+	height: 5vh;
 }
 
 
-.miNav{
+.miNav {
 	background-color: white;
+	border-bottom: 1px solid black;
+}
+
+.miCanvas {
+	align-items: flex-end;
+}
+
+.offcanvas.show {
+	width: 300px;
+	align-items: flex-start;
+	padding: 5% 0 0 2%;
+}
+
+.text-reset {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.p-0 {
+	padding-left: 80% !important;
 }
 
 .nav-item {
@@ -53,7 +80,8 @@ header {
 
 
 li.nav-item {
-	margin-right: 2%;
+	
+	margin: -2% 2% 0 0;
 	font-weight: 500;
 	font-size: 1rem;
 	font-family: 'Work Sans', sans-serif !important;
@@ -123,6 +151,6 @@ footer {
 	display: flex;
 	align-items: center;
 	padding-left: 28px;
-	height: 39px;
+	height: 38.5px;
 	border: 1px solid $colorNegro;
 }

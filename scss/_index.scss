@@ -79,7 +79,7 @@
 
 
 .flex {
-	@include cardFlexColumn (flex, column, center)
+	@include cardFlexColumn (flex, column, center, 5%)
 
 }
 
@@ -105,10 +105,9 @@
 
 .botonIndex {
 	display: inline;
-	background: rgb(206, 198, 214);
-	color: rgb(255, 255, 255);
-	border: solid rgb(206, 198, 214);
-	border-radius: 5%;
+	background-color: rgba(255, 255, 255, 0.37);
+	color: black;
+	border: solid 1.5px black;
 	padding: 1%;
 	margin: 6% 0 10% 40%;
 	font-weight: 600;

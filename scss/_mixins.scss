@@ -1,7 +1,9 @@
-@mixin cardFlexColumn ($display, $direction, $aling) {
+@mixin cardFlexColumn ($display, $direction, $aling, $margin) {
     display: $display;
     flex-direction: $direction;
     text-align: $aling;
+    margin-left: $margin;
+   
 }
 
 @mixin cardProductosIndex ($display, $wrap, $justify) {
