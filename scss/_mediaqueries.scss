@@ -24,6 +24,11 @@
 		padding: 5%;
 	}
 
+
+	.tituloProductos {
+		margin-top: 15%;
+	}
+
 	.imagenFlex {
 		height: 70%;
 		width: 80%;
@@ -52,12 +57,52 @@
 		font-size: 1.30rem;
 	}
 
+	.tituloInformacionEnvios {
+		margin-top: 15%;
+	}
+
+	.tituloCuenta {
+		margin-top: 15%;
+	}
+
+	.tituloContacto {
+		margin-top: 15%;
+	}
+
 	.inputMessage {
 		width: 40vw;
 		height: 30vh;
 	}
 
 }
+
+
+@media screen and (max-width: 920px) {
+	.text-reset {
+		visibility: visible;
+		opacity: 1;
+
+	}
+
+
+	.tituloProductos {
+		margin-top: 15%;
+	}
+	
+	.tituloInformacionEnvios {
+		margin-top: 15%;
+	}
+
+	.tituloCuenta {
+		margin-top: 15%;
+	}
+
+	.tituloContacto {
+		margin-top: 15%;
+	}
+}
+	
+
 
 
 @media screen and (max-width: 780px) {
@@ -114,8 +159,16 @@
 		font-size: 1.20rem;
 	}
 
+	.tituloProductos {
+		margin-top: 15%;
+	}
+
+	.tituloInformacionEnvios {
+		margin-top: 18%;
+	}
+
 	.tituloCuenta {
-		margin-top: 8%;
+		margin-top: 18%;
 	}
 
 	.formulario {
@@ -136,7 +189,7 @@
 	}
 
 	.tituloContacto {
-		margin-top: 8%;
+		margin-top: 35%;
 	}
 
 	.inputContacto {
@@ -156,31 +209,6 @@
 }
 
 
-@media screen and (max-width: 920px) {
-	.text-reset {
-		visibility: visible;
-		opacity: 1;
-
-	}
-
-
-	.tituloProductos {
-		margin-top: 20%;
-	}
-	
-	.tituloInformacionEnvios {
-		margin-top: 20%;
-	}
-
-	.tituloCuenta {
-		margin-top: 20%;
-	}
-
-	.tituloContacto {
-		margin-top: 20%;
-	}
-}
-	
 
 
 @media screen and (max-width: 722px) {
@@ -192,7 +220,7 @@
 
 	
 	.tituloProductos {
-		margin-top: 20%;
+		margin-top: 18%;
 	}
 	
 	.tituloInformacionEnvios {
@@ -219,6 +247,7 @@
 	}
 
 }
+
 
 
 @media screen and (max-width: 680px) {
@@ -320,20 +349,20 @@
 
 	
 	.tituloProductos {
-		margin-top: 20%;
+		margin-top: 23%;
 	}
 	
 	.tituloInformacionEnvios {
-		margin-top: 20%;
+		margin-top: 23%;
 	}
 
 	.tituloCuenta {
-		margin-top: 20%;
+		margin-top: 23%;
 	}
 
 
 	.tituloContacto {
-		margin-top: 20%;
+		margin-top: 23%;
 	}
 
 
@@ -346,25 +375,30 @@
 
 @media screen and (max-width: 576px) {
 
+
+	.logo {
+		font-size: 1.05rem;
+	}
+
 	.imagenCarrusel {
 		height: 50vh;
 	}
 
 	
 	.tituloProductos {
-		margin-top: 20%;
+		margin-top: 25%;
 	}
 	
 	.tituloInformacionEnvios {
-		margin-top: 20%;
+		margin-top: 27%;
 	}
 
 	.tituloCuenta {
-		margin-top: 20%;
+		margin-top: 27%;
 	}
 
 	.tituloContacto {
-		margin-top: 20%;
+		margin-top: 27%;
 	}
 
 
@@ -413,7 +447,7 @@
 
 	.imagenCuarzo {
 		width: 90vw;
-		margin-right: 3.5%;
+		margin-right: 6%;
 	}
 
 	.imagenAmatista {
@@ -427,15 +461,15 @@
 
 
 	.tituloProductos {
-		margin-top: 20%;
+		margin-top: 28%;
 	}
 	
 	.tituloInformacionEnvios {
-		margin-top: 20%;
+		margin-top: 28%;
 	}
 
 	.tituloCuenta {
-		margin-top: 20%;
+		margin-top: 28%;
 	}
 
 	.textoCuenta {
@@ -456,7 +490,7 @@
 	}
 
 	.tituloContacto {
-		margin-top: 20%;
+		margin-top: 28%;
 	}
 
 	.inputContacto {
@@ -494,6 +528,11 @@
 
 @media screen and (max-width: 480px) {
 
+	.logo {
+		font-size: 1rem;
+	}
+
+
 	.imagenCarrusel {
 		height: 50vh;
 	}
@@ -530,7 +569,7 @@
 
 	.imagenCuarzo {
 		width: 90vw;
-		margin-right: 3.5%;
+		margin-right: 6%;
 	}
 
 	.imagenAmatista {
@@ -557,12 +596,17 @@
 		font-weight: 400;
 	}
 
+	.tituloProductos {
+		margin-top: 28%;
+	}
+
 	.contenedorInformacion {
 		padding: 5%;
 	}
 
 	.tituloInformacionEnvios {
 		font-size: 1.30rem;
+		margin-bottom: 7%;
 	}
 
 	.subtitulo {
@@ -589,7 +633,7 @@
 
 	.tituloCuenta {
 		font-size: 1rem;
-		margin-top: 20%;
+		
 	}
 
 	.textoCuenta {
@@ -652,8 +696,16 @@
 		font-size: 0.90rem;
 	}
 
+	.tituloProductos {
+		margin-top: 35%;
+	}
+
+	.tituloInformacionEnvios {
+		margin-top: 35%;
+	}
+
 	.tituloCuenta {
-		margin-top: 20%;
+		margin-top: 35%;
 	}
 
 	.textoCuenta {
@@ -670,7 +722,7 @@
 	}
 
 	.tituloContacto {
-		margin-top: 20%;
+		margin-top: 35%;
 	}
 
 	.inputContacto {

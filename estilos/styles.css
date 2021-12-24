@@ -328,6 +328,8 @@ footer {
     padding: 8% 2% 0 2%; }
   .flex {
     padding: 5%; }
+  .tituloProductos {
+    margin-top: 15%; }
   .imagenFlex {
     height: 70%;
     width: 80%;
@@ -346,9 +348,28 @@ footer {
     font-weight: 400; }
   .precioProductos {
     font-size: 1.30rem; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 15%; }
+  .tituloCuenta, .tituloContacto {
+    margin-top: 15%; }
+  .tituloContacto {
+    margin-top: 15%; }
   .inputMessage {
     width: 40vw;
     height: 30vh; } }
+
+@media screen and (max-width: 920px) {
+  .text-reset {
+    visibility: visible;
+    opacity: 1; }
+  .tituloProductos {
+    margin-top: 15%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 15%; }
+  .tituloCuenta, .tituloContacto {
+    margin-top: 15%; }
+  .tituloContacto {
+    margin-top: 15%; } }
 
 @media screen and (max-width: 780px) {
   .contenedorCards {
@@ -383,8 +404,12 @@ footer {
     font-size: 1.35rem; }
   .piedrasProductos {
     font-size: 1.20rem; }
+  .tituloProductos {
+    margin-top: 15%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 18%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 18%; }
   .formulario {
     margin-bottom: 15%; }
   .botonCuenta, .botonContacto {
@@ -395,7 +420,7 @@ footer {
     margin-left: -33%;
     width: 80vw; }
   .tituloContacto {
-    margin-top: 8%; }
+    margin-top: 35%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
@@ -405,24 +430,11 @@ footer {
   footer {
     font-size: 0.90rem; } }
 
-@media screen and (max-width: 920px) {
-  .text-reset {
-    visibility: visible;
-    opacity: 1; }
-  .tituloProductos {
-    margin-top: 20%; }
-  .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 20%; }
-  .tituloCuenta, .tituloContacto {
-    margin-top: 20%; }
-  .tituloContacto {
-    margin-top: 20%; } }
-
 @media screen and (max-width: 722px) {
   .imagenCarrusel {
     height: 50vh; }
   .tituloProductos {
-    margin-top: 20%; }
+    margin-top: 18%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
     margin-top: 20%; }
   .tituloCuenta, .tituloContacto {
@@ -481,27 +493,29 @@ footer {
   .imagenCarrusel {
     height: 50vh; }
   .tituloProductos {
-    margin-top: 20%; }
+    margin-top: 23%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 20%; }
+    margin-top: 23%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 23%; }
   .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 23%; }
   .inputMessage {
     width: 80vw; } }
 
 @media screen and (max-width: 576px) {
+  .logo {
+    font-size: 1.05rem; }
   .imagenCarrusel {
     height: 50vh; }
   .tituloProductos {
-    margin-top: 20%; }
+    margin-top: 25%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 20%; }
+    margin-top: 27%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 27%; }
   .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 27%; }
   .inputMessage {
     width: 80vw; } }
 
@@ -532,18 +546,18 @@ footer {
     justify-content: center; }
   .imagenCuarzo {
     width: 90vw;
-    margin-right: 3.5%; }
+    margin-right: 6%; }
   .imagenAmatista {
     width: 90vw;
     margin-right: 3.5%; }
   .botonIndex {
     margin-left: 28%; }
   .tituloProductos {
-    margin-top: 20%; }
+    margin-top: 28%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 20%; }
+    margin-top: 28%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 28%; }
   .textoCuenta, .textoContacto {
     margin: 0 1%; }
   .form-label {
@@ -554,7 +568,7 @@ footer {
   .botonCuenta, .botonContacto {
     background-color: #dad6fc; }
   .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 28%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
@@ -575,6 +589,8 @@ footer {
     margin-top: 15%; } }
 
 @media screen and (max-width: 480px) {
+  .logo {
+    font-size: 1rem; }
   .imagenCarrusel {
     height: 50vh; }
   .contenedorCards {
@@ -599,7 +615,7 @@ footer {
     text-align: center; }
   .imagenCuarzo {
     width: 90vw;
-    margin-right: 3.5%; }
+    margin-right: 6%; }
   .imagenAmatista {
     width: 90vw;
     margin-right: 3.5%; }
@@ -614,10 +630,13 @@ footer {
   .piedrasProductos {
     font-size: 1rem;
     font-weight: 400; }
+  .tituloProductos {
+    margin-top: 28%; }
   .contenedorInformacion {
     padding: 5%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    font-size: 1.30rem; }
+    font-size: 1.30rem;
+    margin-bottom: 7%; }
   .subtitulo, .infoPuntos {
     font-size: 1.25rem; }
   .infoEnvios, .puntosEntrega {
@@ -631,8 +650,7 @@ footer {
   .puntosEntrega {
     font-size: 1.05rem; }
   .tituloCuenta, .tituloContacto {
-    font-size: 1rem;
-    margin-top: 20%; }
+    font-size: 1rem; }
   .textoCuenta, .textoContacto {
     font-size: 1rem; }
   .form-label {
@@ -666,8 +684,12 @@ footer {
     margin-left: 20%; }
   .piedrasProductos {
     font-size: 0.90rem; }
+  .tituloProductos {
+    margin-top: 35%; }
+  .tituloInformacionEnvios, .tituloInformacionEntregas {
+    margin-top: 35%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 35%; }
   .textoCuenta, .textoContacto {
     margin: 1%; }
   .form-label {
@@ -676,7 +698,7 @@ footer {
     margin-left: -33%;
     width: 80vw; }
   .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 35%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
