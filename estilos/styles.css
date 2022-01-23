@@ -19,7 +19,7 @@ header {
 
 .anuncio {
   background-color: black;
-  width: 98.7vw;
+  width: 100%;
   height: 7vh; }
 
 .textoAnuncio {
@@ -34,27 +34,11 @@ header {
   font-family: 'Abril Fatface', cursive;
   background-color: #ecdaf5;
   font-size: 1.2rem;
-  margin-top: 15%;
+  margin-top: 5%;
   padding: 0 1vw 0 1vw; }
 
 .miNav {
-  background-color: white;
   border-bottom: 1px solid black; }
-
-.miCanvas {
-  align-items: flex-end; }
-
-.offcanvas.show {
-  width: 300px;
-  align-items: flex-start;
-  padding: 5% 0 0 2%; }
-
-.text-reset {
-  visibility: hidden;
-  opacity: 0; }
-
-.p-0 {
-  padding-left: 80% !important; }
 
 .nav-item a {
   color: #525252;
@@ -68,15 +52,15 @@ header {
     background-size: 100% 2px; }
 
 li.nav-item {
-  margin: -2% 2% 0 0;
+  margin: -1% 2% 0 0;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-family: 'Work Sans', sans-serif !important; }
 
 footer {
   padding: 1%;
   background-color: white;
-  border-top: solid 1.5px #b5b6de; }
+  border-top: solid 1px black; }
 
 .contenedorFooter {
   width: 100%;
@@ -88,7 +72,8 @@ footer {
 .elementosFooter h2 {
   font-size: 1.20rem;
   font-weight: 600;
-  margin-bottom: 8%; }
+  margin-bottom: 10%;
+  text-decoration: underline 3.5px #f8dbee; }
 
 .elementosFooter p {
   font-weight: 400;
@@ -98,7 +83,7 @@ footer {
   font-family: 'Work Sans', sans-serif; }
 
 .iconContacto {
-  color: rgba(0, 0, 0, 0.678); }
+  color: #726f6f; }
 
 .formularioFooter {
   display: flex;
@@ -127,7 +112,7 @@ footer {
 
 /* INDEX */
 .imagenCarrusel {
-  height: 650px; }
+  height: 550px; }
 
 .iconoCamion {
   margin: 0 0 2% 33%; }
@@ -166,71 +151,61 @@ footer {
   background-color: #e9dcf1;
   border: solid #e9dcf1; }
 
-.cardProductos1 {
+.contenedorProductos {
   display: flex;
-  align-items: center;
-  margin: 4% 0 8% 5%;
-  padding: 8% 2% 0 2%; }
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 8%; }
 
-.cardProductos2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 5% 8% 7%; }
+.card1, .card2 {
+  width: 28.5rem;
+  background-color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease; }
+  .card1:hover, .card2:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-left: 5%; }
+.card-title {
+  text-align: center; }
 
-.piedrasTitulo {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  margin-bottom: 2%;
-  font-size: 1.25rem; }
-
-.piedrasIndex {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  margin-bottom: 5%; }
-  .piedrasIndex::selection {
-    background: #dad0ee; }
+.miBtn {
+  margin: 3% 0 0 35%;
+  border: 1px solid #f8dbee; }
+  .miBtn:hover {
+    background-color: #f8dbee; }
 
 .botonIndex {
   display: inline;
-  background-color: rgba(255, 255, 255, 0.37);
+  background-color: #f8dbee;
   color: black;
   border: solid 1.5px black;
   padding: 1%;
-  margin: 6% 0 10% 40%;
+  margin: 10% 0 10% 40%;
   font-weight: 600;
   cursor: pointer; }
 
 /* PRODUCTOS */
 .tituloProductos {
   margin-top: 6%;
-  text-align: center;
-  font-size: 1.30rem; }
+  font-size: 1.30rem;
+  text-decoration: underline 5px #cfc6e6;
+  text-align: center; }
 
 .flexRow {
   display: flex;
   justify-content: space-evenly;
   margin: 8% 3%; }
 
+.imagenFlex {
+  border: 1.2px solid black;
+  height: 60%; }
+
 .flexColumn {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 10% 5% 9% 5%;
-  background-image: linear-gradient(to right, #505050, #646464, #707070);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: all 0.5s linear; }
-  .flexColumn:hover {
-    color: #585858;
-    background-size: 100% 1px; }
+  margin: 10% 5% 9% 5%; }
 
 .piedrasTituloProd {
   font-size: 1.25rem;
@@ -247,6 +222,71 @@ footer {
   font-size: 1.02rem;
   font-weight: 600; }
 
+.linkProducto {
+  width: 10vw;
+  font-size: 0.80rem;
+  font-weight: 500;
+  margin: auto;
+  padding: 2%;
+  background-color: #f8dbee;
+  white-space: nowrap; }
+  .linkProducto:hover {
+    color: black;
+    background-color: #e4c5d9; }
+
+.flexRowCristales {
+  display: flex;
+  margin: 5% 0 10% 0; }
+
+.linkInformacion {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black; }
+  .linkInformacion:hover {
+    color: black; }
+
+.imagenProductos {
+  margin-left: 5%; }
+
+.textoLink {
+  margin: 10% 0 0 5%; }
+  .textoLink:hover {
+    transform: scale(1); }
+
+.tituloCristales {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 15%; }
+
+.precioCristales {
+  margin: 5% 0 0 15%;
+  font-weight: 500;
+  font-size: 1.2rem; }
+
+.descripcionCristales {
+  margin-left: 15%;
+  padding-right: 4%; }
+
+.labelCantidad {
+  margin: 8% 0 2% 15%; }
+
+.inputCantidad {
+  width: 35vw;
+  height: 45px;
+  border: 1px solid #b6b6b6;
+  margin-left: 15%;
+  padding-left: 2%; }
+
+.carrito {
+  background-color: #f8dbee;
+  font-weight: 400;
+  padding: 2%;
+  width: 35vw;
+  margin: 3% 0 0 15%;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer; }
+
 /* INFORMACION */
 .contenedorInformacion {
   margin: 4% 3% 18% 3%; }
@@ -254,7 +294,8 @@ footer {
 .tituloInformacionEnvios, .tituloInformacionEntregas {
   text-align: center;
   font-size: 1.35rem;
-  margin: 6% 0 4% 0; }
+  margin: 6% 0 4% 0;
+  text-decoration: underline 5px #cfc6e6; }
 
 .subtitulo, .infoPuntos {
   color: #b5b6de;
@@ -263,7 +304,7 @@ footer {
   margin: 2% 0 3% 3%; }
 
 .infoEnvios, .puntosEntrega {
-  color: #a6a6a6;
+  color: #636262;
   font-size: 1.15rem;
   margin: 2% 0 3% 3%; }
 
@@ -276,7 +317,8 @@ footer {
 .tituloCuenta, .tituloContacto {
   margin-top: 6%;
   text-align: center;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  text-decoration: underline 5px #cfc6e6; }
 
 .textoCuenta, .textoContacto {
   color: #363636;
@@ -364,9 +406,10 @@ footer {
     height: 30vh; } }
 
 @media screen and (max-width: 920px) {
-  .text-reset {
-    visibility: visible;
-    opacity: 1; }
+  .card1, .card2 {
+    margin-bottom: 8%; }
+  .botonIndex {
+    margin-left: 35%; }
   .tituloProductos {
     margin-top: 15%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
@@ -602,6 +645,11 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-content: center; }
+  .card1, .card2 {
+    margin-bottom: 10%;
+    width: 75vw; }
+  .miBtn {
+    margin-left: 30%; }
   .tituloEnvios, .tituloEntregas {
     font-weight: 600;
     font-size: 1rem; }
@@ -685,12 +733,21 @@ footer {
 @media screen and (max-width: 375px) {
   .imagenCarrusel {
     height: 50vh; }
+  .card1, .card2 {
+    width: 80vw; }
+  .card-title {
+    font-size: 1rem; }
+  .miBtn {
+    margin-left: 30%;
+    font-size: 0.70rem; }
   .botonIndex {
     margin-left: 20%; }
   .piedrasProductos {
     font-size: 0.90rem; }
   .tituloProductos {
-    margin-top: 35%; }
+    margin-top: 20%; }
+  .linkProducto {
+    padding: 2% 41% 2% 2%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
     margin-top: 35%; }
   .tituloCuenta, .tituloContacto {

@@ -1,0 +1,64 @@
+.flexRowCristales {
+    display: flex;
+    margin: 5% 0 10% 0;
+}
+
+.linkInformacion {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: $colorNegro;
+    &:hover {
+        color: $colorNegro;
+    }
+}
+
+.imagenProductos {
+    margin-left: 5%;
+}
+
+.textoLink {
+    margin: 10% 0 0 5%;
+    &:hover {
+        transform: scale(1)
+    }
+}
+
+.tituloCristales {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 15%;
+}
+
+.precioCristales {
+    margin: 5% 0 0 15%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.descripcionCristales {
+    margin-left: 15%;
+    padding-right: 4%;
+}
+
+.labelCantidad {
+    margin: 8% 0 2% 15%;
+}
+
+.inputCantidad {
+    width: 35vw;
+    height: 45px;
+    border: 1px solid rgb(182, 182, 182);
+    margin-left: 15%;
+    padding-left: 2%;
+}
+
+.carrito {
+    background-color: $colorRosita;
+    font-weight: 400;
+    padding: 2%;
+    width: 35vw;
+    margin: 3% 0 0 15%;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}

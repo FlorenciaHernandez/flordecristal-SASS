@@ -1,119 +1,98 @@
 /* INDEX */
 
-
-
-
-
 .imagenCarrusel {
-	height: 650px;
+    height: 550px;
 }
-
 
 .iconoCamion {
-	margin: 0 0 2% 33%;
+    margin: 0 0 2% 33%;
 }
-
 
 .iconoMapa {
-	margin: 0 0 2% 37%;
-	color: $colorLila;
+    margin: 0 0 2% 37%;
+    color: $colorLila;
 }
-
 
 .contenedorCards {
-	display: flex;
-	justify-content: space-evenly;
-	border-bottom: solid 1.5px $colorLila;
-	padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1.5px $colorLila;
+    padding: 2%;
 }
-
 
 .cardEnvios {
-	color: $colorLila;
-	padding-right: 10%;
-	border-right: solid 2px $colorLila;
+    color: $colorLila;
+    padding-right: 10%;
+    border-right: solid 2px $colorLila;
 }
-
 
 .tituloEnvios {
-	font-weight: 600;
-	font-size: 1.20rem;
+    font-weight: 600;
+    font-size: 1.20rem;
 }
-
 
 .textoEnvios {
-	font-weight: 400;
-	font-size: 1.05rem;
+    font-weight: 400;
+    font-size: 1.05rem;
 }
-
 
 .tituloEntregas {
-	@extend .tituloEnvios;
-	color: $colorLila
+    @extend .tituloEnvios;
+    color: $colorLila
 }
-
 
 .textoEntregas {
-	@extend .textoEnvios;
-	text-align: center;
-	color: $colorLila;
+    @extend .textoEnvios;
+    text-align: center;
+    color: $colorLila;
 }
-
 
 .backgroundColorPiedras {
-	background-color: rgb(233, 220, 241);
-	border: solid rgb(233, 220, 241);
+    background-color: rgb(233, 220, 241);
+    border: solid rgb(233, 220, 241);
 }
 
-
-.cardProductos1 {
-	display: flex;
-	align-items: center;
-	margin: 4% 0 8% 5%;
-	padding: 8% 2% 0 2%;
+.contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 8%;
 }
 
-
-.cardProductos2 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0 5% 8% 7%;
+.card1 {
+    width: 28.5rem;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+    }
 }
 
-
-.flex {
-	@include cardFlexColumn (flex, column, center, 5%)
-
+.card2 {
+    @extend .card1 
 }
 
-
-.piedrasTitulo {
-	font-family: $fontFamilyM;
-	font-weight: 400;
-	margin-bottom: 2%;
-	font-size: 1.25rem;
+.card-title {
+    text-align: center;
 }
 
-
-.piedrasIndex {
-	font-family: $fontFamilyM;
-	font-weight: 300;
-	margin-bottom: 5%;
-
-	&::selection {
-		background: rgb(218, 208, 238);
-	}
+.miBtn {
+    margin: 3% 0 0 35%;
+    border: 1px solid $colorRosita;
+    &:hover {
+        background-color: $colorRosita;
+    }
 }
-
 
 .botonIndex {
-	display: inline;
-	background-color: rgba(255, 255, 255, 0.37);
-	color: black;
-	border: solid 1.5px black;
-	padding: 1%;
-	margin: 6% 0 10% 40%;
-	font-weight: 600;
-	cursor: pointer;
+    display: inline;
+    background-color: $colorRosita;
+    color: $colorNegro;
+    border: solid 1.5px $colorNegro;
+    padding: 1%;
+    margin: 10% 0 10% 40%;
+    font-weight: 600;
+    cursor: pointer;
 }

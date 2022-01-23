@@ -1,170 +1,133 @@
-
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
 a {
-	text-decoration: none;
-	color: $colorNegro;
+    text-decoration: none;
+    color: $colorNegro;
 }
 
 body {
-	background-color: white;
-	font-family: 'Work Sans', sans-serif;
-	color: $colorNegro;
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+    color: $colorNegro;
 }
-
 
 header {
-	position: sticky;
-	top: 0;
-	z-index: 2;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
-
 .anuncio {
-	background-color: rgb(0, 0, 0);
-	width: 98.7vw;
-	height: 7vh;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 7vh;
 }
 
 .textoAnuncio {
-	font-family: 'Work Sans', sans-serif;
-	color: white;
-	text-align: center;
-	font-size: 0.90rem;
-	padding: 1%;
-	font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 0.90rem;
+    padding: 1%;
+    font-weight: 500;
 }
-
-
 
 .logo {
-	font-family:'Abril Fatface', cursive;
-	background-color: #ecdaf5;
-	font-size: 1.2rem;
-	margin-top: 15%;
-	padding: 0 1vw 0 1vw;
+    font-family: 'Abril Fatface', cursive;
+    background-color: #ecdaf5;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    padding: 0 1vw 0 1vw;
 }
-
-
 
 .miNav {
-	background-color: white;
-	border-bottom: 1px solid black;
-}
-
-.miCanvas {
-	align-items: flex-end;
-}
-
-.offcanvas.show {
-	width: 300px;
-	align-items: flex-start;
-	padding: 5% 0 0 2%;
-}
-
-.text-reset {
-	visibility: hidden;
-	opacity: 0;
-}
-
-.p-0 {
-	padding-left: 80% !important;
+    border-bottom: 1px solid black;
 }
 
 .nav-item {
-	a {
-		color: rgb(82, 82, 82);
-		background-image: linear-gradient(to right, #e0c8eb, #e0c6d0, #f1bdd0);
-		background-position: 0% 100%;
-		background-repeat: no-repeat;
-		background-size: 0% 2px;
-		transition: background-size .3s;
-
-		&:hover {
-			color: rgb(148, 148, 148);
-			background-size: 100% 2px;
-		}
-	}
+    a {
+        color: rgb(82, 82, 82);
+        background-image: linear-gradient(to right, #e0c8eb, #e0c6d0, #f1bdd0);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+        &:hover {
+            color: rgb(148, 148, 148);
+            background-size: 100% 2px;
+        }
+    }
 }
-
 
 li.nav-item {
-	
-	margin: -2% 2% 0 0;
-	font-weight: 500;
-	font-size: 1rem;
-	font-family: 'Work Sans', sans-serif !important;
+    margin: -1% 2% 0 0;
+    font-weight: 500;
+    font-size: 1.05rem;
+    font-family: 'Work Sans', sans-serif !important;
 }
-
 
 footer {
-	padding: 1%;
-	background-color: white;
-	border-top: solid 1.5px $colorLila;
+    padding: 1%;
+    background-color: white;
+    border-top: solid 1px $colorNegro;
 }
-
 
 .contenedorFooter {
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-	padding-bottom: 20px;
-	margin-top: 2.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-top: 2.5%;
 }
-
 
 .elementosFooter {
-	h2 {
-		font-size: 1.20rem;
-		font-weight: 600;
-		margin-bottom: 8%;
-	}
-	p {
-		font-weight: 400;
-		color: rgb(66, 66, 66);
-		margin-top: 5%;
-		margin-bottom: -2%;
-		font-family: 'Work Sans', sans-serif;
-	}
+    h2 {
+        font-size: 1.20rem;
+        font-weight: 600;
+        margin-bottom: 10%;
+        text-decoration: underline 3.5px $colorRosita;
+    }
+    p {
+        font-weight: 400;
+        color: rgb(66, 66, 66);
+        margin-top: 5%;
+        margin-bottom: -2%;
+        font-family: 'Work Sans', sans-serif;
+    }
 }
-
 
 .iconContacto {
-	color: rgba(0, 0, 0, 0.678);
+    color: rgb(114, 111, 111);
 }
-
 
 .formularioFooter {
-	display: flex;
-	padding: 1%;
-	margin: 2% 2% 2% 0;
+    display: flex;
+    padding: 1%;
+    margin: 2% 2% 2% 0;
 }
-
 
 .inputFooter {
-	display: flex;
-	background-color: white;
-	color: $colorNegro;	
-	padding: 5%;
-	border: solid 1px $colorNegro;
-	font-size: 0.8rem;
-	margin-bottom: 2%;
+    display: flex;
+    background-color: white;
+    color: $colorNegro;
+    padding: 5%;
+    border: solid 1px $colorNegro;
+    font-size: 0.8rem;
+    margin-bottom: 2%;
 }
 
-
 .inputSubmit {
-	background-image: url(../images/kisspng-computer-icons-button-send-email-button-5ac4bc896d9823.4635189215228427614489.png);
-	background-repeat: no-repeat;
-	background-position: 4px center;
-	background-size: 20px;
-	display: flex;
-	align-items: center;
-	padding-left: 28px;
-	height: 38.5px;
-	border: 1px solid $colorNegro;
+    background-image: url(../images/kisspng-computer-icons-button-send-email-button-5ac4bc896d9823.4635189215228427614489.png);
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    height: 38.5px;
+    border: 1px solid $colorNegro;
 }
