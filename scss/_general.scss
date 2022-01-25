@@ -70,6 +70,14 @@ li.nav-item {
     font-family: 'Work Sans', sans-serif !important;
 }
 
+.navbar-light .navbar-toggler {
+    color: $colorLila;
+    &:focus {
+    box-shadow: 0 0 0 0.15rem;
+    }
+    
+}
+
 footer {
     padding: 1%;
     background-color: white;
@@ -90,6 +98,7 @@ footer {
         font-weight: 600;
         margin-bottom: 10%;
         text-decoration: underline 3.5px $colorRosita;
+        text-underline-offset: 4px;
     }
     p {
         font-weight: 400;

@@ -57,6 +57,11 @@ li.nav-item {
   font-size: 1.05rem;
   font-family: 'Work Sans', sans-serif !important; }
 
+.navbar-light .navbar-toggler {
+  color: #b5b6de; }
+  .navbar-light .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.15rem; }
+
 footer {
   padding: 1%;
   background-color: white;
@@ -73,7 +78,8 @@ footer {
   font-size: 1.20rem;
   font-weight: 600;
   margin-bottom: 10%;
-  text-decoration: underline 3.5px #f8dbee; }
+  text-decoration: underline 3.5px #f8dbee;
+  text-underline-offset: 4px; }
 
 .elementosFooter p {
   font-weight: 400;
@@ -189,7 +195,8 @@ footer {
 .tituloProductos {
   margin-top: 6%;
   font-size: 1.30rem;
-  text-decoration: underline 5px #cfc6e6;
+  text-decoration: underline 3px #cfc6e6;
+  text-underline-offset: 6px;
   text-align: center; }
 
 .flexRow {
@@ -295,7 +302,8 @@ footer {
   text-align: center;
   font-size: 1.35rem;
   margin: 6% 0 4% 0;
-  text-decoration: underline 5px #cfc6e6; }
+  text-decoration: underline 3px #cfc6e6;
+  text-underline-offset: 6px; }
 
 .subtitulo, .infoPuntos {
   color: #b5b6de;
@@ -318,7 +326,8 @@ footer {
   margin-top: 6%;
   text-align: center;
   font-size: 1.25rem;
-  text-decoration: underline 5px #cfc6e6; }
+  text-decoration: underline 3px #cfc6e6;
+  text-underline-offset: 6px; }
 
 .textoCuenta, .textoContacto {
   color: #363636;
@@ -376,7 +385,7 @@ footer {
   .flex {
     padding: 5%; }
   .tituloProductos {
-    margin-top: 15%; }
+    margin-top: 8%; }
   .imagenFlex {
     height: 70%;
     width: 80%;
@@ -395,12 +404,34 @@ footer {
     font-weight: 400; }
   .precioProductos {
     font-size: 1.30rem; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 15%; }
+    margin-top: 8%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 15%; }
+    margin-top: 8%; }
   .tituloContacto {
-    margin-top: 15%; }
+    margin-top: 8%; }
   .inputMessage {
     width: 40vw;
     height: 30vh; } }
@@ -411,13 +442,13 @@ footer {
   .botonIndex {
     margin-left: 35%; }
   .tituloProductos {
-    margin-top: 15%; }
+    margin-top: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 15%; }
+    margin-top: 8%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 15%; }
+    margin-top: 8%; }
   .tituloContacto {
-    margin-top: 15%; } }
+    margin-top: 8%; } }
 
 @media screen and (max-width: 780px) {
   .contenedorCards {
@@ -453,11 +484,35 @@ footer {
   .piedrasProductos {
     font-size: 1.20rem; }
   .tituloProductos {
-    margin-top: 15%; }
+    margin-top: 8%; }
+  .linkProducto {
+    padding: 2% 22% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 18%; }
+    margin-top: 8%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 18%; }
+    margin-top: 8%; }
   .formulario {
     margin-bottom: 15%; }
   .botonCuenta, .botonContacto {
@@ -468,7 +523,7 @@ footer {
     margin-left: -33%;
     width: 80vw; }
   .tituloContacto {
-    margin-top: 35%; }
+    margin-top: 15%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
@@ -482,13 +537,37 @@ footer {
   .imagenCarrusel {
     height: 50vh; }
   .tituloProductos {
-    margin-top: 18%; }
+    margin-top: 8%; }
+  .linkProducto {
+    padding: 2% 22% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 20%; }
+    margin-top: 8%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 8%; }
   .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 8%; }
   .inputMessage {
     width: 80vw; }
   .botonContacto {
@@ -515,18 +594,42 @@ footer {
     font-weight: 400;
     font-size: 0.85rem; }
   .tituloProductos {
-    margin-top: 20%; }
+    margin-top: 8%; }
+  .linkProducto {
+    padding: 2% 25% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 20%; }
+    margin-top: 8%; }
   .form-label {
     margin-left: -33%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 8%; }
   .inputCuenta, .inputContacto {
     margin-left: -33%;
     width: 80vw; }
   .tituloContacto {
-    margin-top: 20%; }
+    margin-top: 8%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
@@ -541,13 +644,37 @@ footer {
   .imagenCarrusel {
     height: 50vh; }
   .tituloProductos {
-    margin-top: 23%; }
+    margin-top: 8%; }
+  .linkProducto {
+    padding: 2% 26% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 23%; }
+    margin-top: 8%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 23%; }
+    margin-top: 8%; }
   .tituloContacto {
-    margin-top: 23%; }
+    margin-top: 8%; }
   .inputMessage {
     width: 80vw; } }
 
@@ -557,13 +684,37 @@ footer {
   .imagenCarrusel {
     height: 50vh; }
   .tituloProductos {
-    margin-top: 25%; }
+    margin-top: 8%; }
+  .linkProducto {
+    padding: 2% 29% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 27%; }
+    margin-top: 8%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 27%; }
+    margin-top: 8%; }
   .tituloContacto {
-    margin-top: 27%; }
+    margin-top: 8%; }
   .inputMessage {
     width: 80vw; } }
 
@@ -601,11 +752,35 @@ footer {
   .botonIndex {
     margin-left: 28%; }
   .tituloProductos {
-    margin-top: 28%; }
+    margin-top: 15%; }
+  .linkProducto {
+    padding: 2% 31% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 28%; }
+    margin-top: 215%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 28%; }
+    margin-top: 15%; }
   .textoCuenta, .textoContacto {
     margin: 0 1%; }
   .form-label {
@@ -616,7 +791,7 @@ footer {
   .botonCuenta, .botonContacto {
     background-color: #dad6fc; }
   .tituloContacto {
-    margin-top: 28%; }
+    margin-top: 15%; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
@@ -684,7 +859,31 @@ footer {
     font-size: 1rem;
     font-weight: 400; }
   .tituloProductos {
-    margin-top: 28%; }
+    margin-top: 15%; }
+  .linkProducto {
+    padding: 2% 33% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .contenedorInformacion {
     padding: 5%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
@@ -731,10 +930,12 @@ footer {
     margin: 0 0 5% 3%; } }
 
 @media screen and (max-width: 375px) {
+  .nav-link {
+    font-size: 0.90rem; }
   .imagenCarrusel {
     height: 50vh; }
   .card1, .card2 {
-    width: 80vw; }
+    width: 85vw; }
   .card-title {
     font-size: 1rem; }
   .miBtn {
@@ -745,13 +946,42 @@ footer {
   .piedrasProductos {
     font-size: 0.90rem; }
   .tituloProductos {
-    margin-top: 20%; }
+    margin: 15% 0 10% 0; }
   .linkProducto {
     padding: 2% 41% 2% 2%; }
+  .flexRowCristales {
+    display: flex;
+    flex-direction: column; }
+  .imagenProductos {
+    width: 90vw;
+    margin-left: 3.5%; }
+  .tituloCristales {
+    margin: 8% 0 0 10%; }
+  .descripcionCristales {
+    margin-left: 10%; }
+  .precioCristales {
+    margin-left: 10%; }
+  .flexColumnCarrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%; }
+  .inputCantidad {
+    width: 80%; }
+  .carrito {
+    white-space: nowrap;
+    width: 80%;
+    margin-bottom: 8%; }
   .tituloInformacionEnvios, .tituloInformacionEntregas {
-    margin-top: 35%; }
+    margin: 15% 0 10% 0; }
+  .subtitulo, .infoPuntos {
+    margin-top: 8%; }
+  .tituloInformacionEntregas {
+    margin: 12% 0 12% 0;
+    padding-top: 15%; }
+  .infoPuntos {
+    margin-bottom: 5%; }
   .tituloCuenta, .tituloContacto {
-    margin-top: 35%; }
+    margin: 15% 0 10% 0; }
   .textoCuenta, .textoContacto {
     margin: 1%; }
   .form-label {
@@ -760,7 +990,7 @@ footer {
     margin-left: -33%;
     width: 80vw; }
   .tituloContacto {
-    margin-top: 35%; }
+    margin: 15% 0 10% 0; }
   .inputContacto {
     margin-left: -33%;
     width: 80vw; }
