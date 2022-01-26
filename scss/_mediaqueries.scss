@@ -57,6 +57,11 @@
 		font-size: 1.30rem;
 	}
 
+	.linkProducto {
+		padding: 2% 14% 2% 2%;
+
+
+	}
 
 	.flexRowCristales {
 		display: flex;
@@ -131,6 +136,12 @@
 
 	.tituloProductos {
 		margin-top: 8%;
+	}
+
+	.linkProducto {
+		padding: 2% 16% 2% 2%;
+
+
 	}
 	
 	.tituloInformacionEnvios {
@@ -676,7 +687,7 @@
 	}
 
 	.tituloCuenta {
-		margin-top: 8%;
+		margin: 8% 0 6% 0;
 	}
 
 	.tituloContacto {
@@ -743,7 +754,7 @@
 
 
 	.tituloProductos {
-		margin-top: 15%;
+		margin-top: 8%;
 	}
 	
 	.linkProducto {
@@ -794,11 +805,11 @@
 
 
 	.tituloInformacionEnvios {
-		margin-top: 215%;
+		margin-top: 8%;
 	}
 
 	.tituloCuenta {
-		margin-top: 15%;
+		margin: 8% 0 6% 0;
 	}
 
 	.textoCuenta {
@@ -819,7 +830,7 @@
 	}
 
 	.tituloContacto {
-		margin-top: 15%;
+		margin-top: 8%;
 	}
 
 	.inputContacto {
@@ -937,7 +948,7 @@
 	}
 
 	.tituloProductos {
-		margin-top: 15%;
+		margin-top: 8%;
 	}
 
 	
@@ -994,8 +1005,8 @@
 	}
 
 	.tituloInformacionEnvios {
-		font-size: 1.30rem;
-		margin-bottom: 7%;
+		font-size: 1.15rem;
+		margin: -2% 0 7% 0;
 	}
 
 	.subtitulo {
@@ -1007,7 +1018,7 @@
 	}
 
 	.tituloInformacionEntregas {
-		font-size: 1.30rem;
+		font-size: 1.15rem;
 		margin-top: 15%;
 		padding-top: 10%;
 	}
@@ -1022,6 +1033,7 @@
 
 	.tituloCuenta {
 		font-size: 1rem;
+		margin-bottom: 6%;
 		
 	}
 
@@ -1055,7 +1067,7 @@
 
 	.tituloContacto {
 		font-size: 1rem;
-		margin-top: 20%;
+		margin-top: 8%;
 	}
 
 	.textoContacto {
@@ -1069,6 +1081,26 @@
 	}
 
 }
+
+@media screen and (max-width: 445px) {
+
+	.linkProducto {
+		padding: 2% 36% 2% 2%;
+
+	}
+
+}
+
+@media screen and (max-width: 410px) {
+
+	.linkProducto {
+		padding: 2% 39% 2% 2%;
+
+	}
+
+}
+
+
 
 
 @media screen and (max-width: 375px) {
@@ -1156,7 +1188,7 @@
 	}
 
 	.tituloInformacionEnvios {
-		margin: 15% 0 10% 0;
+		margin: 8% 0 10% 0;
 	}
 
 	.subtitulo {

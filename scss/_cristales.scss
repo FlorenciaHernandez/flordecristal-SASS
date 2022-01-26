@@ -3,25 +3,11 @@
     margin: 5% 0 10% 0;
 }
 
-.linkInformacion {
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: $colorNegro;
-    &:hover {
-        color: $colorNegro;
-    }
-}
 
 .imagenProductos {
     margin-left: 5%;
 }
 
-.textoLink {
-    margin: 10% 0 0 5%;
-    &:hover {
-        transform: scale(1)
-    }
-}
 
 .tituloCristales {
     font-weight: 500;
