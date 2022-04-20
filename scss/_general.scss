@@ -52,7 +52,7 @@ header {
 li.nav-item {
     margin: -1% 2% 0 0;
     font-weight: 500;
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     font-family: 'Work Sans', sans-serif !important;
 }
 
@@ -95,34 +95,29 @@ footer {
     }
 }
 
+.newsletterFooter {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	border-bottom: 1px solid #545454;
+	min-width: 250px;
+	width: 100%;
+}
+
+.mail {
+	input {
+		border: 0;
+		padding: 15px 0;
+		font-size: 15px;
+		color: $colorNegro;
+		background-color: transparent;
+		text-align: left;
+		width: 100%;
+		outline: none;
+	}
+}
+
 .iconContacto {
     color: rgb(114, 111, 111);
 }
 
-.formularioFooter {
-    display: flex;
-    padding: 1%;
-    margin: 2% 2% 2% 0;
-}
-
-.inputFooter {
-    display: flex;
-    background-color: white;
-    color: $colorNegro;
-    padding: 5%;
-    border: solid 1px $colorNegro;
-    font-size: 0.8rem;
-    margin-bottom: 2%;
-}
-
-.inputSubmit {
-    background-image: url(../images/kisspng-computer-icons-button-send-email-button-5ac4bc896d9823.4635189215228427614489.png);
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
-    display: flex;
-    align-items: center;
-    padding-left: 28px;
-    height: 38.5px;
-    border: 1px solid $colorNegro;
-}
